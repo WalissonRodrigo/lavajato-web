@@ -57,7 +57,7 @@ class HomePage extends Component {
     const { user } = this.props;
 
     if (user) {
-      return <ToDoListCard {...this.props} />;
+      return <></>;
     }
 
     return (
