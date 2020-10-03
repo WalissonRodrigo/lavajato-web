@@ -63,8 +63,8 @@ class HomePage extends Component {
     return (
       <EmptyState
         image={<InsertBlockIllustration />}
-        title="ToDoList Project Manager"
-        description="Lista de tarefas para gerenciar projetos simples."
+        title={process.env.REACT_APP_TITLE}
+        description={process.env.REACT_APP_DESCRIPTION}
       />
     );
   }
